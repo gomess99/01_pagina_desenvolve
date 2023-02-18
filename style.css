@@ -123,7 +123,11 @@ footer{
 .text-programa{
     line-height: 24px;
     font-size: 14px;
-    
+}
+
+.text-programa a, .redes-sociais a{
+    text-decoration: none;
+    color: #000000; 
 }
 
 .redes-sociais{
