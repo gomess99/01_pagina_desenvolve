@@ -45,3 +45,98 @@ header{
 .input-pesquisa::placeholder{
     color:#FF97D3;
 }
+
+main{
+    
+    display: flex;
+    
+}
+
+.container-principal{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.trilha{
+    flex-wrap: wrap;
+    margin: 50px 0 150px 0;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.trilha div{
+    position: relative;
+    width: 340px;
+    height: 350px;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.trilha p{
+    margin-bottom: 32px;
+    font-size: 16px;
+    text-align: start;
+}
+
+.trilha-titulos{
+    font-size: 24px;
+    color: #364372;
+    margin-bottom: 32px;
+}
+
+.trilha-botao{
+
+
+    font-size: 14px;
+    color: #264FEC;
+    border: 1px solid #264FEC;
+    border-radius: 4px;
+    background: transparent;
+    padding: 20px;
+    display: flex;
+    position: absolute;
+    top: 320px;
+    
+
+}
+
+
+footer{
+    background-color: #FFFFFF;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-elementos-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    align-items: center;
+
+}
+
+.text-programa{
+    line-height: 24px;
+    font-size: 14px;
+    
+}
+
+.redes-sociais{
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.redes-icones{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+}
+
+
