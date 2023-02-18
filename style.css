@@ -89,8 +89,6 @@ main{
 }
 
 .trilha-botao{
-
-
     font-size: 14px;
     color: #264FEC;
     border: 1px solid #264FEC;
@@ -100,7 +98,7 @@ main{
     display: flex;
     position: absolute;
     top: 320px;
-    
+    text-decoration: none;
 
 }
 
